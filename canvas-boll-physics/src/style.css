@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #eeeeee;
+}
+
+canvas{
+  background-color: aliceblue;
+  border-radius: 4px;
+  box-shadow: 0 1px 8px -3px rgba(0, 0, 0, 0.25);
+}
+
+#box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
